@@ -11,7 +11,7 @@
 
 import Foundation
 import MetalKit
-import MarqueeFoundation
+
 import MarqueeShaderKit
 import OSLog
 import LoggingKit
