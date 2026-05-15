@@ -1,5 +1,5 @@
 {
-  "originHash" : "88f1c1f9bd5808d09839426f13b2add6f378f367f6deaac94ce50eef7e332403",
+  "originHash" : "7fdb1fcfcde7b948adf69489a47d3d12e48ab9b3faca16a06d821e4d98e2080d",
   "pins" : [
     {
       "identity" : "loggingkit",
@@ -7,15 +7,6 @@
       "location" : "https://github.com/Mountain-View-Staging/LoggingKit.git",
       "state" : {
         "revision" : "e5e14147efbee9f84a52656aab68c773a2712976",
-        "version" : "1.0.0"
-      }
-    },
-    {
-      "identity" : "marqueefoundation",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Mountain-View-Staging/MarqueeFoundation.git",
-      "state" : {
-        "revision" : "1e1c956b8c9d18d7247a72c5be42a7b2bbed5db9",
         "version" : "1.0.0"
       }
     },

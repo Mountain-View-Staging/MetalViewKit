@@ -366,3 +366,18 @@ extension MarqueeMetalView: MTKViewDelegate {
         commandBuffer.commit()
     }
 }
+
+import Foundation
+import SwiftUI
+
+#if os(iOS) || os(tvOS)
+import UIKit
+public typealias PlatformColor = UIColor
+public typealias PlatformView = UIView
+
+#elseif os(macOS)
+import AppKit
+public typealias PlatformColor = NSColor
+public typealias PlatformView = NSView
+
+#endif
